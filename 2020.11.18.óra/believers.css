@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(109, 126, 16);
+    margin: 0;
+}
+img{
+    width: 300px;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+a{
+    color: rgb(16, 30, 233);
+    text-decoration: none;
+    line-height: 25px;
+}
+h1{
+    color: rgb(200, 221, 83);
+}
+li a:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.nyil{
+    width: 100px;
+}
