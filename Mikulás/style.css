@@ -1,0 +1,102 @@
+
+
+#mikulás{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    background-color: rgb(7,7,49);
+}
+
+#fej{
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    background-color: rgb(255, 217, 170);
+    left: 85px;
+    top: 230px;
+    border-radius: 0% 0% 40% 40%;
+
+}
+
+#sapi1{
+    position: absolute;
+    left: 75px;
+    top: 80px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 150px solid red;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+}
+
+#sapi2{
+    position: absolute;
+    border-bottom: 60px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(75deg);
+    left: 155px;
+    top: 72px;
+}
+
+#bojt{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    left: 190px;
+    top: 70px;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+#prem{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    left: 75px;
+    top: 210px;
+    z-index: 1;
+    border-radius: 10%; 
+    border: 2px solid black;
+}
+
+.szem{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 18px;
+    margin-top: 12px;
+
+}
+
+#elso_szem{
+    margin-left: 20px;
+}
+
+.fekete{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+
+#szakall{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20% 20% 50% 50%;
+    left: 75px;
+    top: 285px;
+    border: 2px solid black;
+}
