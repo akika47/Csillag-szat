@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="főoldal.css">
+    <title>Csillagászat</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="főoldal.html">Főoldal</a></li>
+            <li><a href="bolygók.html">Bolygók</a></li>
+            <li><a href="űrteleszkópok.html">Űrteleszkópok</a></li>
+        </ul>
+    </nav>
+    <h1 class="nagyobb">Csillagászat</h1>
+    <p class="nagy">Ezen a weboldalon a csillagászattal kapcsolatos dolgokat szeretnék bemutatni, ilyen galéria jellegű formában. Ha a képekre rákattintunk akkor elvisz minket az adott űrhajós/bolygó/teleszkóp weboldalára.</p>
+    <h2 class="nagy">Űrhajósok</h2>
+    <div class="sor">
+        <div class="oszlop">
+            <p>Jurij Gagarin</p>
+            <img class="jurij" src="250px-Yuri_Gagarin_in_1963.jpg" alt="Yuri_Gagarin"title="Yuri_Gagarin">
+        </div>
+        <div class="oszlop">
+            <p>Alan Shepard</p>
+            <img class="alan" src="shepard.jpg" alt="Alan_Shepard" title="Alan_Shepard">
+        </div>
+        <div class="oszlop">
+            <p>Farkas Bertalan</p>
+            <img class="farkas" src="farkas.jpg" alt="Farkas_Bertalan" title="Farkas_Bertalan">
+        </div>
+        <div class="oszlop">
+            <p>Sigmund Jähn</p>
+            <img class="sigmund" src="sigmund.jpg" alt="Sigmund_Jähn" title="Sigmund_Jähn">
+        </div>
+        <div class="oszlop">
+            <p>Jean-Loup Chrétien</p>
+            <img class="jean" src="jean.jpg" alt="Jean-Loup_Chrétien" title="Jean-Loup_Chrétien">
+        </div>
+    </div>
+    <div class="sor"></div>
+        <div class="oszlop">
+            <p>Alekszandr Jurjevics</p>
+            <img class="aleksz" src="aleksz.jpg" alt="Alekszandr_Jurjevics_Kaleri" title="Alekszandr_Jurjevics_Kaleri">
+        </div>
+        <div class="oszlop">
+            <p>Mark Shuttleworth</p>
+            <img class="mark" src="mark.jpg" alt="Mark_Shuttleworth" title="Mark_Shuttleworth">
+        </div>
+        <div class="oszlop">
+            <p>Ílán Rámón</p>
+            <img class="ilan" src="ilán.jpg" alt="Ílán_Rámón" title="Ílán_Rámón">
+        </div>
+        <div class="oszlop">
+            <p>Ivan Bella</p>
+            <img class="ivan" src="ivan.jpg" alt="Ivan_Bella" title="Ivan_Bella">
+        </div>
+        <div class="oszlop">
+            <p>Anousheh Ansari</p>
+            <img class="anou" src="anou.jpg" alt="Anousheh_Ansari" title="Anousheh_Ansari">
+        </div>
+    </div>
+    <div class="nasa"></div>
+    <script>
+        (function(){
+            document.querySelector(".nasa").onclick = function () {
+                location.href = 'https://www.nasa.gov';
+            };
+        }());
+        (function(){
+            document.querySelector(".jurij").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Jurij_Alekszejevics_Gagarin';
+            };
+        }());
+        (function(){
+            document.querySelector(".alan").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Alan_Shepard';
+            };
+        }());
+        (function(){
+            document.querySelector(".farkas").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Farkas_Bertalan_(űrhajós)';
+            };
+        }());
+        (function(){
+            document.querySelector(".sigmund").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Sigmund_Jähn';
+            };
+        }());
+        (function(){
+            document.querySelector(".jean").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Jean-Loup_Chrétien';
+            };
+        }());
+        (function(){
+            document.querySelector(".aleksz").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Alekszandr_Jurjevics_Kaleri';
+            };
+        }());
+        (function(){
+            document.querySelector(".mark").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Mark_Shuttleworth';
+            };
+        }());
+        (function(){
+            document.querySelector(".ilan").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Ílán_Rámón';
+            };
+        }());
+        (function(){
+            document.querySelector(".ivan").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Ivan_Bella';
+            };
+        }());
+        (function(){
+            document.querySelector(".anou").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Anousheh_Ansari';
+            };
+        }());
+</script>
+</body>
+
+</html>

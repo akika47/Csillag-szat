@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="űrteleszkóp.css">
+    <title>Csillagászat</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="főoldal.html">Főoldal</a></li>
+            <li><a href="bolygók.html">Bolygók</a></li>
+            <li><a href="űrteleszkópok.html">Űrteleszkópok</a></li>
+        </ul>
+    </nav>
+    <h1 class="nagyobb">Híres teleszkópok</h1>
+    <h2 class="nagy">Hubble űrteleszkóp</h2>
+    <div class="doboz">
+        <div class="img">
+            <img class="hubble" src="hubble.jpg" alt="Hubble" title="Hubble">
+        </div>
+        <div class="text">
+            <p>A Hubble űrteleszkóp közeli infravörös, láthatófény és ultraibolya tartományokban végez észleléseket. Az USA Nagy Obszervatóriumok sorozatának elős tagja. 1990. április 24-én indították el a Kennedy Űrközpontról. A Hubble az egyik legismertebb és legnépszerűbb űrteleszkóp ezért a "Nép távcsöve"(The People's Telescope) becenevet kapta.</p>
+        </div>
+    </div>
+    <h2 class="nagy">Spitzer űrtávcső</h2>
+    <div class="doboz">
+        <div class="img">
+            <img class="spitzer" src="spitzer.jpg" alt="Spitzer" title="Spitzer">
+        </div>
+        <div class="text">
+            <p>A Spitzer űrtávcső egy infravörös tartományban működő csillagászati műhold. Az USA Nagy Obszervatóriumok sorozatának negyedik tagja és utolsó tagja. 2003. augusztus 25-én indították el a Kennedy Űrközpontról.</p>
+        </div>
+    </div>
+    <script>
+        (function(){
+            document.querySelector(".hubble").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Hubble_űrtávcső';
+            };
+        }());
+        (function(){
+            document.querySelector(".spitzer").onclick = function () {
+                location.href = 'https://hu.wikipedia.org/wiki/Spitzer_űrtávcső';
+            };
+        }());
+    </script>
+</body>
+</html>
